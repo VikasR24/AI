@@ -1,0 +1,30 @@
+from matpotlib import pyplot as plt
+x=[1,2,3]
+y=[10,11,12]
+plt.plot(X,Y)
+plt.title("line graph")
+plt.Ylabel('Yaxis')
+plt.Xlabel('Xaxis')
+plt.show()
+
+import numpy as np
+a = np.array([[3,7,5],[8,4,3],[2,4,9]])
+
+print 'our array is:'
+print a
+print '\n'
+
+print 'Applying amin() function:'
+print np.amin(a,1)
+print '\n'
+
+print 'Applying amin() function again:'
+print np.amin(a,0)
+print '\n'
+
+print 'Applying amax() function:'
+print np.amax(a)
+print '\n'
+
+print 'appyling amax() function again'
+print np.amax(a, axis=0)
